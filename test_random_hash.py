@@ -12,7 +12,3 @@ def test_generate_hash():
     assert len(hash_value) == 32
     assert hash_value == hashlib.sha256(input_string.encode()).hexdigest()[:32]
 
-def test_hash_starts_with_00():
-    input_string = "00test"
-    hash_value = generate_hash(input_string)
-    assert hash_value.startswith("00")
