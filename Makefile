@@ -3,7 +3,7 @@ install:
 	pip install -r requirements.txt
 
 lint:
-	pylint --disable=R,C random-hash.py
+	pylint --disable=R,C random_hash.py
 
 test:
 	pytest -vv --cov=random_hash --cov-report=term-missing
