@@ -21,7 +21,7 @@ def main():
         
         # Check if the hash starts with two consecutive zeros
         if hash_value.startswith("00"):
-            print(f"Found a hash starting with '00':")
+            print("Found a hash starting with '00':")
             print(f"Random String: {random_string}")
             print(f"Hash Value: {hash_value}")
             break
