@@ -6,4 +6,4 @@ lint:
 	pylint --disable=R,C random-hash.py
 
 test:
-	python -m pytest -vv --cov=hello random-hash.py
+	python -m pytest -vv --cov=generate_hash random-hash.py
